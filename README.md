@@ -1,4 +1,4 @@
-tagged-logging
+tagged_logging
 ==============
 
 Rails 3.2 TaggedLogging backported to Rails 3.0

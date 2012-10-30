@@ -2,7 +2,7 @@ require 'active_support/core_ext/module/delegation'
 require 'active_support/core_ext/object/blank'
 require 'active_support/core_ext/logger'
 require 'logger'
-require 'tagged-logging/version'
+require 'tagged_logging/version'
 
 module TaggedLogging
   module Formatter # :nodoc:
