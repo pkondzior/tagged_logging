@@ -1,4 +1,6 @@
+require 'active_support/core_ext/module/delegation'
 require 'active_support/core_ext/object/blank'
+require 'active_support/core_ext/logger'
 require 'logger'
 require 'tagged-logging/version'
 
@@ -31,7 +33,7 @@ module TaggedLogging
     end
 
     def current_tags
-      Thread.current[:activesupport_tagged_logging_tags] ||= []
+      Thread.current[:tagged_logging_tags] ||= []
     end
 
     private
