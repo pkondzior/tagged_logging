@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Tagged::Logging::VERSION
   gem.authors       = ["Paweł Kondzior"]
   gem.email         = ["pawel@kondzior.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Wraps any standard Logger object to provide tagging capabilities.}
+  gem.summary       = %q{Rails 3.2 TaggedLogging backported to Rails 3.0}
+  gem.homepage      = "https://github.com/pkondzior/tagged-logging/"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
