@@ -1,5 +1,6 @@
 require 'active_support/core_ext/object/blank'
 require 'logger'
+require 'tagged-logging/version'
 
 module TaggedLogging
   module Formatter # :nodoc:
