@@ -6,7 +6,7 @@ require 'tagged_logging/version'
 Gem::Specification.new do |gem|
   gem.name          = "tagged_logging"
   gem.version       = Tagged::Logging::VERSION
-  gem.authors       = ["Paweł Kondzior"]
+  gem.authors       = ["Pawel Kondzior"]
   gem.email         = ["pawel@kondzior.com"]
   gem.description   = %q{Wraps any standard Logger object to provide tagging capabilities.}
   gem.summary       = %q{Rails 3.2 TaggedLogging backported to Rails 3.0}
